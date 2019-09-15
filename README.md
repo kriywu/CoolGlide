@@ -34,6 +34,7 @@ clz BitmapUtil ： 一些通用的处理Bitmap的方法
 // init Activity#onCreate
 requestManager.start(); // 初始化线程和线程池
 
+// add task
 UriRequest request = new LocalRequest(uri); // url
 request.mTargetView = new SoftReference<>(iv);
 request.mListener = new LoadingListener() {
@@ -43,11 +44,11 @@ request.mListener = new LoadingListener() {
     }
 
     @Override
-        public void onFail() {
-            Log.d(TAG, "onFail: , position = " + position);
-        }
-    };
-    requestManager.offer(request);
+    public void onFail() {
+        Log.d(TAG, "onFail: , position = " + position);
+    }
+};
+requestManager.offer(request);
 
 // close Activity#onDestory()
 requestManager.stop();
