@@ -1,7 +1,7 @@
 > 愿未来的自己看到这篇文章，庆幸自己的努力。 加油！
 
 CoolGlide 是学习Glide的过程中，动手写的一个简单版本。主要是为了进一步了解Glide的设计原理。
-详细代码：[GITHUB 传送门](https://github.com/RengaoWu/CoolGlide)
+
 
 ## 背景
 
@@ -310,4 +310,3 @@ CoolGlide 是学习Glide的过程中，动手写的一个简单版本。主要�
 4. LruCache缓存策略
 5. 目前代码还存在一个BUG，部分照片显示会缺失 =。=，找了好久还不知道为啥
 
-详细代码：[GITHUB 传送门](https://github.com/RengaoWu/CoolGlide)
